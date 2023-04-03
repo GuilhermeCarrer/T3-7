@@ -6,7 +6,15 @@ public class Exercicio23 {
       System.out.print("Escreva um Número: ");
       num = lernum.nextInt();
       if ( num > 80 ) {
-        System.out.print("Número maior que 80: " + num);
+        System.out.print("Número maior que 80: " + num)
+         else 
+       if   ( num < 25 ) {
+            System.out.print("Número menor que 25: " + num)
+            else
+           if  ( num == 40 ) {
+                System.out.print("Número igual 40: " + num);
+           }
+        }
       }
     }
 }
